@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Mastermind\\": "Mastermind/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mastermind\\Tests\\": "Mastermind/tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    }
+}

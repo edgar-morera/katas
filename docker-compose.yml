@@ -1,0 +1,7 @@
+services:
+    php:
+        container_name: katas_php
+        build: .docker/php
+        volumes:
+            - ./src:/var/www/html
+        #     - ./.docker/php/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
