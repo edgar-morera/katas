@@ -21,6 +21,11 @@ class Mastermind {
             return true;
         }
         
+        return $this->analyseCombination($input_combination);
+    }
+
+    private function analyseCombination($input_combination): array
+    {
         $result = [];
 
         foreach ($input_combination as $pos=>$color) {
